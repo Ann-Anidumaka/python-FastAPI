@@ -1,5 +1,5 @@
-from main import FastAPI
-app = FastAPI
+from fastapi import FastAPI
+app = FastAPI()
 poets = {
     "A": ["Ana Huang", "Arthur Rimbaud"],
     "B": ["Bertolt Brecht", "Bashō"],
